@@ -2,21 +2,36 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-weight: 600 !important;
 }
 
-.App-link {
+.App-header > input{
+  font-size: calc(8px + 2vmin);
+  min-height: 3vh;
+  min-width: 30vh;
+}
+.Informatic-Text{
+  font-size: calc(9px + 1.2vmin);
+}
+
+.GoogleMapsDiv{
   color: #09d3ac;
+  background-color: #867888;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(12px + 2vmin);
+  font-weight: 300 !important;
+  color: white;
+  line-height: 0.5vmin;
 }
